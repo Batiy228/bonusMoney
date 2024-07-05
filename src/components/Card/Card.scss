@@ -1,0 +1,106 @@
+$iconSize: 6vw;
+$text0: 6vw;
+$text1: 10vw;
+$text2: 4vw;
+$text3: 2vw;
+$buttonText: 3vw;
+
+$margin1: 4vw;
+$margin2: 2vw;
+$margin3: 20vw;
+
+$lightGrey: #efefef;
+$white: #fff;
+
+.card {
+  background-color: #fff;
+  margin: $margin1;
+  border-radius: 8vw;
+  padding: 4vw;
+
+  &:first-child {
+    margin-top: 14vw;
+  }
+
+  .content {
+    .header {
+      span {
+        font-size: $text0;
+      }
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 2vw;
+
+      img {
+        width: 12vw;
+        border-radius: 50%;
+      }
+    }
+
+    .mark {
+      font-size: $text2;
+      display: flex;
+      justify-content: start;
+      align-items: baseline;
+      gap: 2vw;
+      .number {
+        font-size: $text0;
+        margin-top: $margin1;
+      }
+    }
+
+    .Loyalty {
+      display: flex;
+      gap: $margin3;
+
+      .cashBack {
+        display: flex;
+        flex-direction: column;
+        margin-top: $margin2;
+        margin-bottom: $margin2;
+        font-size: $text3;
+
+        .value {
+          font-size: $text2;
+        }
+      }
+    }
+
+    .buttons {
+      display: flex;
+      gap: $margin3;
+      justify-content: end;
+      text-align: center;
+      button {
+        cursor: pointer;
+        border: none;
+      }
+
+      .icon {
+        font-size: $iconSize;
+        background-color: white;
+        margin-top: $margin1;
+      }
+
+      .detailed {
+        margin-top: $margin2;
+        border-radius: 3vw;
+        font-size: $buttonText;
+        padding: 0 7vw;
+      }
+
+      img {
+        width: 8vw;
+        height: auto;
+      }
+    }
+  }
+}
+
+// @media (min-width: 768px) {
+//   .card:first-child {
+//     margin-top: 14vw;
+//   }
+// }

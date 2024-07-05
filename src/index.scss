@@ -1,0 +1,33 @@
+$lightGrey: #efefef;
+
+* {
+  margin: 0;
+  padding: 0;
+  // border: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  font-weight: normal;
+  src: url("./assets/fonts/SegoeUIRegular/segoeui-regular.eot");
+  src: url("./assets/fonts/SegoeUIRegular/segoeui-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/SegoeUIRegular/segoeui-regular.woff") format("woff"),
+    url("./assets/fonts/SegoeUIRegular/segoeui-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  font-weight: bold;
+  src: url("./assets/fonts/SegoeUIBold/segoeui-bold.eot");
+  src: url("./assets/fonts/SegoeUIBold/segoeui-bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/SegoeUIBold/segoeui-bold.woff") format("woff"),
+    url("./assets/fonts/SegoeUIBold/segoeui-bold.ttf") format("truetype");
+}
+
+body {
+  background-color: lightGrey;
+  font-family: "CustomFont", sans-serif;
+}

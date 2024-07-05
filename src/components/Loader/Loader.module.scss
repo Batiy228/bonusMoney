@@ -1,0 +1,21 @@
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14vw;
+  margin-bottom: 14vw;
+  font-size: 4vw;
+
+  img {
+    width: 15vw;
+  }
+}
+
+// @media (min-width: 768px) {
+//   .loader {
+//     img {
+//       margin-top: 14vw;
+//     }
+//   }
+// }
